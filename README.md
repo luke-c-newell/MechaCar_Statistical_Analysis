@@ -19,4 +19,23 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ### Total summary per lot
 ![lot_summary](https://github.com/luke-c-newell/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png "lot_summary.png")
 
-Therefore, the current manufacturing data meets the design specification for all manufacturing lots in total, as the variance is less thatn 100 (62.3). But, the lot summary table shows us that Lot 3 did not meet the specification, as the variance is greater than 100 (171.3). Lots 1 & 2 both meet the design specifications as their variance is <100.
+The total summary table shows that the current manufacturing data meets the design specification for all manufacturing lots in total, as the variance is less thatn 100 (62.3). But, the lot summary table shows us that Lot 3 did not meet the specifications, as the variance is greater than 100 (171.3). Lots 1 & 2 both meet the design specifications as their variance is <100.
+
+## T-Tests on Suspension Coils
+To determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch, I have conducted a number of t-tests to measure the significance of the data.
+
+### T-test that compares all manufacturing lots against mean PSI of the population
+![all_lots](https://github.com/luke-c-newell/MechaCar_Statistical_Analysis/blob/main/images/all_lots.png "all_lots.png")
+### T-test to compare lot 1 against the mean PSI of the population
+![lot1](https://github.com/luke-c-newell/MechaCar_Statistical_Analysis/blob/main/images/lot1.png "lot1.png")
+
+### T-test to compare lot 2 against the mean PSI of the population
+![lot2](https://github.com/luke-c-newell/MechaCar_Statistical_Analysis/blob/main/images/lot2.png "lot2.png")
+
+### T-test to compare lot 3 against the mean PSI of the population
+![lot3](https://github.com/luke-c-newell/MechaCar_Statistical_Analysis/blob/main/images/lot3.png "lot3.png")
+
+### Summary of T-test results
+Overall, the mean PSI of all manufacturing lots is not statistically different from the population mean as the p-value of 0.06 is greater than 0.05. When we look at each lot individually, the results show that lot 3 has a mean that is significantly different from the mean of the population with a p-value of 0.04. Lots 1 & 2 are not statistically different from the population mean, as they have p-values of 1.00 and 0.61 respectively.
+
+
