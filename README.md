@@ -42,9 +42,20 @@ To determine if all manufacturing lots and each lot individually are statistical
 Overall, the mean PSI of all manufacturing lots is not statistically different from the population mean as the p-value of 0.06 is greater than 0.05. When we look at each lot individually, the results show that lot 3 has a mean that is significantly different from the mean of the population with a p-value of 0.04. Lots 1 & 2 are not statistically different from the population mean, as they have p-values of 1.00 and 0.61 respectively.
 
 ## Study Design: MechaCar vs Competition
-To understand the competitiveness of the MechaCar in the marketplace, I have designed a statistical test to compare and contrast the MechaCar with its rivals. When making a purchasing decision, consumers take a number of factors into account such as cost, city/highway fuel efficiency, horse power, maintenance cost, or safety ratings. As MechaCar prides itself on its safety record, 
+To understand the competitiveness of the MechaCar in the marketplace, I have designed a statistical test to compare and contrast the MechaCar with its rivals. When making a purchasing decision, consumers take a number of factors into account such as cost, city/highway fuel efficiency, horse power, maintenance cost, or safety ratings. As MechaCar prides itself on its vehicle efficiency, I have designed a test to compare the highway fuel efficiency of MechaCars to those of competing manufacturers.
 
-What metric or metrics are you going to test?
-What are the null and alternative hypotheses?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+### What metric or metrics are you going to test?
+To complete the study, I am going to test the highway efficiency of MechaCar vehicles in miles per gallon (mpg) across different vehicle manugacturers. The variables required for this test would be:
+
+- Mileage per gallon (mpg), the dependant, measured variable
+- Vehicle manufacturer, the independent, categorical variable
+
+### What are the null and alternative hypotheses?
+Null Hypothesis = There is no statistical difference in the mpg of a vehicle based on its manufacturer.
+Alternative Hypothesis = There is a statistical difference in the mpg of a vehicle based on its manufacturer.\
+
+### What statistical test would you use to test the hypothesis?
+I would use a one-way ANOVA to test the hypothesis, as the dependent variable is numerical and continuous, and the independent variables are categorical. Also, the dependent variable is considered to be normally distributed and the variance among each group should be very similar. These factors meet the requirements for running the ANOVA statistical test and would allow us to compare the variances between manufacturers.
+
+### What data is needed to run the statistical test?
+A table containing a list of car models from various manufacturers, with mpg and vehicle manufacturer as the column titles. This is the information required to perform a one-way ANOVA test and would enable us to determine if there are any differences between the average mpg of each manufacturer.
