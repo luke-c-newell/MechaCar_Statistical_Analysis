@@ -1,5 +1,8 @@
 # MechaCar_Statistical_Analysis
+This analysis contains a review of the manufacturing process of a new line of MechaCars. Using the programming language R, I have conducted a number of statistical tests to determine which factors most affect the MPG of the cars and also the variance of the PSI tolerance for the suspension coils. Furthermore, I have designed a study to enable the company to compare their new MechaCar with those produced by rival manufacturers. 
+
 ## Linear Regression to Predict MPG
+Using linear regression, I have determined the statistical significance of a dataset containing mpg test results for 50 prototype vehicles. The MechaCar prototypes were produced using design specifications to identify ideal vehicle performance. Various metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Below are the results of a multiple linear regression test that determines which factors most affect the mpg of the prototype vehicles.
 
 ![linear_regression](https://github.com/luke-c-newell/MechaCar_Statistical_Analysis/blob/main/images/linear_regression.png "linear_regression.png")
 
@@ -38,4 +41,10 @@ To determine if all manufacturing lots and each lot individually are statistical
 ### Summary of T-test results
 Overall, the mean PSI of all manufacturing lots is not statistically different from the population mean as the p-value of 0.06 is greater than 0.05. When we look at each lot individually, the results show that lot 3 has a mean that is significantly different from the mean of the population with a p-value of 0.04. Lots 1 & 2 are not statistically different from the population mean, as they have p-values of 1.00 and 0.61 respectively.
 
+## Study Design: MechaCar vs Competition
+To understand the competitiveness of the MechaCar in the marketplace, I have designed a statistical test to compare and contrast the MechaCar with its rivals. When making a purchasing decision, consumers take a number of factors into account such as cost, city/highway fuel efficiency, horse power, maintenance cost, or safety ratings. As MechaCar prides itself on its safety record, 
 
+What metric or metrics are you going to test?
+What are the null and alternative hypotheses?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
